@@ -1,29 +1,18 @@
 # DST domain-status-tool
-
-Fast Request Checker.
-
-## Description
-
-Built using Go lang
-
-## Getting Started
+Fast Request Checker with Multithreading and timeout
 
 ### Dependencies
-
 * Go 1.19 or higher
-
 * Internet connection
-
 * File containing a list of domains (one domain per line)
 
 ### Installing
-
-* clone into repo
-* Any modifications needed to be made to files/folders
-
+using wget :
+```
+wget https://raw.githubusercontent.com/U2477/DST/refs/heads/main/worker.go
+```
 ### Usage
- 
-* host.txt contain new line between every domain.
+host.txt contain new line between every domain.
   
 ```
 go run worker.go host.txt
