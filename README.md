@@ -22,6 +22,3 @@ go run worker.go host.txt
 
 Any issue or problem report here
 t.me/N01N1
-```
-command to run if program contains helper info
-```
