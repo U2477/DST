@@ -1,28 +1,38 @@
-# Devuan
-a h/1.1 Scanner that hits built using Go lang
+# DST domain-status-tool
 
-Requirements
+Fast Request Checker.
 
-Go 1.19 or higher
+## Description
 
-Internet connection
+Built using Go lang
 
-File containing a list of domains (one domain per line)
+## Getting Started
 
+### Dependencies
 
-Installation
+* Go 1.19 or higher
 
-1. Clone the repository:
+* Internet connection
 
-git clone https://github.com/yourusername/devuan-status-checker.git
-cd devuan-status-checker
+* File containing a list of domains (one domain per line)
 
+### Installing
 
-2. Build the project:
+* clone into repo
+* Any modifications needed to be made to files/folders
 
-go build -o status-checker main.go
+### Usage
+ 
+* host.txt contain new line between every domain.
+  
+```
+go run worker.go host.txt
+```
 
+## Help
 
-3. Run the tool:
-
-./status-checker domains.txt
+Any issue or problem report here
+t.me/N01N1
+```
+command to run if program contains helper info
+```
