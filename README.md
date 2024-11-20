@@ -9,7 +9,7 @@ Fast Request Checker with Multithreading and timeout
 ### Installing
 using wget :
 ```
-wget https://raw.githubusercontent.com/U2477/DST/refs/heads/main/worker.go
+wget https://raw.githubusercontent.com/U2477/DST/refs/heads/main/dst.go
 ```
 ### Usage
 host.txt contain new line between every domain.
